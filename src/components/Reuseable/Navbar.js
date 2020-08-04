@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'gatsby';
-import logo from '../../images/logo.jpeg';
+import logo from '../../images/logo.png';
 import {FaCartArrowDown} from 'react-icons/fa';
 
 export default class Navbar extends Component {
