@@ -16,6 +16,14 @@
   padding:1px 55px;
 }
 
+.hero-background1{
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:tomato;
+}
 
 .About-background{
   min-height: 30vh;

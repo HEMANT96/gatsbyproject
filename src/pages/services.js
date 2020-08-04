@@ -8,22 +8,22 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from '../components/Reuseable/HeroSection';
 import InfoBlock from '../components/Reuseable/InfoBlock';
-import Form from "../components/Reuseable/Form";
+import DualInfo from "../components/Reuseable/DualinfoBlock";
 //import Coursecart from "../components/Cart/Coursecart";
 
 
-const Contact = ({data}) => (
+const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
      <HeroSection
      img = {data.img.childImageSharp.fluid }
-     title="Contact US"
+     title="OUR SERVICES"
      subtitle=""
-     heroclass="hero-background"
+     heroclass="hero-background1"
   />
      <InfoBlock heading="About Us"/>
       {/* <Coursecart Courses={data.Cousers}/>*/}
-     <Form/>
+     <DualInfo heading="Our Team"/>
      </Layout>
 )
 
@@ -53,4 +53,4 @@ export const query = graphql`
   }
  }
 `
-export default Contact;
+export default IndexPage
