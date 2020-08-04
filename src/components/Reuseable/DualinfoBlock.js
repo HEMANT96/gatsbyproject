@@ -8,11 +8,7 @@ export default function DualinfoBlock({heading}) {
         <Heading title={heading}/>
    
         <div className="row ml-5 container"> 
-            <div className="col-8 mx-auto">
-            <p className="lead text-white mb-5">
-            Lorem dfsdfa sdfasdfas sdfassssssssssssssssssssssssssssssssssssssssssfdsagfregsdagergdasvgad sdfdsfsdfsdfsadfsdfas
-            </p>
-            </div>
+           
             <div className="col-4 ">
             <div class="card bg-dark">
             <img class="card-img-top" src="https://tse4.mm.bing.net/th?id=OIP.1iSHdBrcWMx8Ed10_3-cmQHaEK&pid=Api&P=0&w=339&h=191" alt="Card image cap"/>
