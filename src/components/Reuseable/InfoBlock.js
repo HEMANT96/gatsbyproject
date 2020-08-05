@@ -12,8 +12,7 @@ export default function InfoBlock({heading}) {
                    <p className="lead text-white mb-4">
                    Lore dfasdf dfasf asdf asdf asddfdfasdfdfsdfasf asdf asdfdf dfsasdfasdfddfdsddsfasf asdf asdf sdfa sdf asdf asdf asdf asdf asdf af asd sdf sd 
                    </p>
-                   <Link to="/about/">
-
+                   <Link to="/about">
                    <button className="btn btn-warning btn-lg"> {heading}</button>
                    </Link>
 

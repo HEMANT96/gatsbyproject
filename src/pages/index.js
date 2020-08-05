@@ -22,8 +22,9 @@ const IndexPage = ({data}) => (
      heroclass="hero-background"
   />
      <InfoBlock heading="About Us"/>
-      {/* <Coursecart Courses={data.Cousers}/>*/}
-     <DualInfo heading="Our Team"/>
+      {/* <Coursecart Courses={data.Cousers}/>    
+      */}
+      <DualInfo heading="Our Team"/>
      </Layout>
 )
 
