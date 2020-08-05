@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from '../components/Reuseable/HeroSection';
 import InfoBlock from '../components/Reuseable/InfoBlock';
-import DualInfo from "../components/Reuseable/DualinfoBlock";
+import DualInfo from "../components/Reuseable/DualinfoBlock2";
 //import Coursecart from "../components/Cart/Coursecart";
 
 
@@ -17,19 +17,19 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
      <HeroSection
      img = {data.img.childImageSharp.fluid }
-     title="OUR SERVICES"
-     subtitle=""
+     title=""
+     subtitle="OUR SERVICES"
      heroclass="hero-background1"
   />
      <InfoBlock heading="About Us"/>
       {/* <Coursecart Courses={data.Cousers}/>*/}
-     <DualInfo heading="Our Team"/>
+     <DualInfo heading="Our Services"/>
      </Layout>
 )
 
 export const query = graphql`
 {
-  img: file(relativePath: { eq: "tech.jpg" }) {
+  img: file(relativePath: { eq: "service.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid_tracedSVG

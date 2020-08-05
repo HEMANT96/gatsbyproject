@@ -7,9 +7,9 @@ export default function HeroSection({img, title, subtitle, heroclass}) {
            className={heroclass}
            fluid={img}
         >
-            <h1 className="text-success text-uppercase text-center display-4">{title}</h1>
+            <h1 className="text-white text-uppercase text-center display-4">{title}</h1>
             <div>
-               <h4 className="text-danger">{subtitle}</h4>
+               <h4 className="text-warning">{subtitle}<hr/></h4>
             </div>
         </BackgroundImage>
     )

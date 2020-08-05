@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from '../components/Reuseable/HeroSection';
 import InfoBlock from '../components/Reuseable/InfoBlock';
-import DualInfo from "../components/Reuseable/DualinfoBlock";
+import DualInfo from "../components/Reuseable/DualinfoBlock1";
 import TeamPhot from "../components/About/TeamPhot";
 
 

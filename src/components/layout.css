@@ -7,6 +7,7 @@
 
 .hero-background{
   min-height: 100vh;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,12 +18,11 @@
 }
 
 .hero-background1{
-  min-height: 80vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color:tomato;
 }
 
 .About-background{
